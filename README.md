@@ -1,103 +1,158 @@
-# Bo Liu / imliubo
+<h1 align="center">Bo Liu · imliubo</h1>
 
-Embedded MCU Engineer · ESP32 / STM32 · GUI & Runtime  
-📍 ShenZhen, China · 🧠 Focus on MCU-level systems
+<p align="center">
+  <b>Embedded Engineer at M5Stack</b><br/>
+  ESP32 / STM32 · RTOS · GUI · Runtime
+</p>
 
-> 专注 MCU，不止写驱动  
-> 做的是 **平台、工具链、运行环境**
+<p align="center">
+  <img src="https://img.shields.io/badge/MCU-ESP32%20%7C%20STM32-blue"/>
+  <img src="https://img.shields.io/badge/RTOS-FreeRTOS-green"/>
+  <img src="https://img.shields.io/badge/GUI-LVGL-orange"/>
+  <img src="https://img.shields.io/badge/Runtime-MicroPython-purple"/>
+</p>
 
----
-
-## 🔧 我擅长什么（What I Do Best）
-
-我主要专注在 **MCU 级别的软件系统开发**，尤其是：
-
-- **ESP32 / STM32 平台**
-- **GUI / 仿真 / 运行时**
-- **让 MCU 像“系统”一样工作**
-
-我的工作不仅是写某个驱动，而是：
-> 👉 把 **MCU + OS / Runtime + GUI + Tooling** 组合成「可长期维护的平台」。
+<p align="center">
+  📍 Shenzhen, China · 🧠 Focus on MCU-level systems
+</p>
 
 ---
 
-## 🧠 核心技能（Core Skills）
+## 🧩 About Me
 
-### MCU & SoC
-- ESP32 / ESP32-S3 / ESP32-C3
+> 专注 **MCU 级别的软件系统开发**  
+> 不只写驱动，而是构建 **平台 / 运行时 / GUI / 工具链**  
+
+---
+
+<details>
+<summary><b>🔧 What I Do (展开)</b></summary>
+
+- MCU 平台：**ESP32 / STM32**
+- RTOS / Runtime 设计（FreeRTOS / MicroPython）
+- MCU 端 GUI（LVGL）
+- PC Emulator / 仿真环境（提升 MCU GUI 开发效率）
+- 外设驱动、系统抽象与平台级维护
+
+</details>
+
+---
+
+<details>
+<summary><b>🧠 Core Skills (展开)</b></summary>
+
+### MCU & OS
+- ESP32 / ESP32-S3 / ESP32-C3  
 - STM32（F / G / H 系列）
+- FreeRTOS（Task / Queue / Event / ISR）
 
-### OS / Runtime
-- FreeRTOS
-- MicroPython（移植、模块、平台级维护）
-- 事件驱动 / Task / 中断架构设计
-
-### GUI / 交互
-- **LVGL**（设备端 GUI）
-- **LVGL PC Emulator**（跨平台仿真、开发效率工具）
-
-### 通信与外设
-- I2C / SPI / UART / GPIO / PWM
-- 显示屏 / 触摸 / 传感器 / 摄像头
-
-### 工程化
+### Runtime & Tooling
+- MicroPython（ESP32 平台级维护）
 - C / C++ / Python
-- CMake / Makefile
-- Git / CI / 可复现构建
+- CMake / Makefile / Git / CI
+
+### GUI / Interaction
+- LVGL（设备端 GUI）
+- LVGL PC Emulator（跨平台仿真与调试）
+
+### Interfaces
+- I2C / SPI / UART / GPIO / PWM / USB
+
+</details>
 
 ---
 
-## 🌟 重点项目 & 生态贡献（Key Projects）
+<details>
+<summary><b>🌟 Key Projects & Open Source Contributions (展开)</b></summary>
 
-### ⭐ lv_m5_emulator — LVGL PC 仿真环境（主要维护者）
-> **让 MCU GUI 可以在 PC 上“像应用一样开发”**
+### ⭐ lv_m5_emulator  
+**LVGL PC Emulator · 主要维护者**
 
-- LVGL 的 **PC Emulator 实现**
-- 支持在桌面环境快速开发、调试 UI
-- 大幅提升 MCU GUI 的开发效率  
-➡️ https://github.com/m5stack/lv_m5_emulator
+> 让 MCU GUI 可以在 PC 上像应用一样开发
 
-**关键词**：LVGL / GUI Emulator / Developer Experience
-
----
-
-### ⭐ uiflow-micropython — UiFlow MicroPython
-> **面向硬件生态的 MicroPython 运行环境**
-
-- ESP32 平台的 MicroPython 生态维护
-- 硬件抽象、模块集成、平台稳定性
-- 面向“教育 + 工程”的 MCU 运行时方案  
-➡️ https://github.com/m5stack/uiflow-micropython
-
-**关键词**：ESP32 / MicroPython / Runtime / Platform
+- LVGL 桌面端仿真环境
+- 显著提升 MCU GUI 的开发与调试效率  
+🔗 https://github.com/m5stack/lv_m5_emulator
 
 ---
 
-### M5Pi & Launcher（MCU + Linux 交叉经验）
-- MCU 视角下的系统工程实践
-- LVGL Launcher / 交互探索  
-➡️ https://github.com/imliubo
+### ⭐ uiflow-micropython  
+**M5Stack UiFlow 编程平台源码 · 核心维护**
+
+> 面向硬件生态的 MCU Runtime
+
+- ESP32 平台 MicroPython 生态维护
+- 硬件抽象层与模块集成  
+🔗 https://github.com/m5stack/uiflow-micropython
 
 ---
 
+### Open Source Projects
+- 多个 MCU / 外设 / GUI 相关开源项目
+- 注重 **工程结构、可维护性与复用性**
+- 项目与实验性仓库持续更新中
+
+</details>
+
 ---
 
-## 🧩 我关注的问题（Interests）
+<details>
+<summary><b>🏢 Background & Focus (展开)</b></summary>
 
-- 如何让 MCU 拥有 **更好的开发体验**
-- MCU GUI / 仿真 / 快速迭代
-- MCU 运行时（MicroPython / 动态加载 / App 化）
+### Professional Background
+- Embedded engineer at **M5Stack**
+- MCU 平台与开发工具链相关项目维护者
+- 长期专注 **ESP32 生态与 MCU 系统化设计**
+
+### Display & Hardware Focus
+- 对 **显示系统** 有持续、系统性的工程兴趣
+- 涉及屏幕类型：
+  - LCD / OLED / AMOLED
+  - E-Ink / Memory LCD
+- 关注重点：
+  - 接口与时序（SPI / RGB / QSPI 等）
+  - 带宽与内存受限下的 GUI 性能
+  - 功耗、刷新策略与显示体验平衡
+
+</details>
 
 ---
 
-## 🤝 联系 / 合作（Contact）
+<details>
+<summary><b>📚 Writing & Tutorials (展开)</b></summary>
 
-- GitHub: https://github.com/imliubo
-- X(Twitter): @its_hard_2_name
+- 编写过 MCU / ESP32 / GUI / 工程化相关教程
+- 偏向：
+  - 原理 + 实践
+  - 工程经验总结
+  - 为开发者降低上手成本
+- 重视文档与示例在开源项目中的价值
+- 链接:
+  - [树莓派 + LVGL](https://www.waveshare.net/study/portal.php?mod=list&catid=66)
+  - [知乎](https://www.zhihu.com/people/MAKINGFUNXYZ/posts)
 
-如果你在做：
-- ESP32 / STM32
-- MCU GUI / LVGL
-- MicroPython / Runtime / 工具链
+</details>
 
-欢迎交流、PR 或深入合作。
+---
+
+<details>
+<summary><b>🧠 Interests (展开)</b></summary>
+
+- MCU Runtime / App 化 / 模块化
+- MCU GUI / Emulator / Developer Experience
+- 可维护、可扩展的嵌入式系统架构
+
+</details>
+
+---
+
+## 🤝 Contact
+
+- GitHub: https://github.com/imliubo  
+- X (Twitter): @its_hard_2_name
+
+---
+
+<p align="center">
+  <i>“Make MCU work like a system.”</i>
+</p>
